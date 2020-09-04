@@ -1,0 +1,35 @@
+body {
+    background-color: #663399;
+    font-family: courier, monotype;
+    text-align: center;
+  }
+  
+  #drum-machine {
+    width: 350px;
+    margin: 50px auto;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  
+  #display {
+    font-size: 16px;
+  }
+  
+  #kit {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+  
+  .drum-pad {
+    background-color: #eee;
+    cursor: pointer;
+    font-size: 50px;
+    padding: 10px;
+  }
